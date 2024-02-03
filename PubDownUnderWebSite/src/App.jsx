@@ -15,8 +15,7 @@ function App() {
   };
   return (
     <>
-        <Header />
-        <Navbar onButtonClick={handleButtonClick}/>
+        <Header onButtonClick={handleButtonClick}/>
         <Outlet />
         <Footer />
     </>

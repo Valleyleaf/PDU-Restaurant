@@ -6,14 +6,12 @@
 * {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   --titlecolor: #000000;
-  --defineTestColor: #f88484;
+  --MainColor: #c7c7c7;
   --defineTestColor2: #cefd83;
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
   text-align: center;
 }
 

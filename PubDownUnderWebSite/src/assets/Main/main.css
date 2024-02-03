@@ -1,0 +1,6 @@
+.MainClass{
+    background-color: rgb(255, 181, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

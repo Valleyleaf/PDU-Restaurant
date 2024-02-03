@@ -9,7 +9,7 @@ import {
   InMemoryCache,
 } from "@apollo/client";
 
-import Main from './assets/Display/Main.jsx'
+import Main from './assets/Main/Main.jsx'
 
 const client = new ApolloClient({
   uri: 'http://localhost:3001/',

@@ -5,12 +5,17 @@ import './header.css';
 export default function Header() {
   return (
     <>
-        <img src={image} alt="link to nothing" />
-        <>
-          <h2 className="titletext">
-           Pub Down Under
-          </h2>
-        </>
+    <div className="HeaderRoot">
+        <h2 className="titletext">
+        Pub Down Under
+        </h2>
+    </div>
+
+    <div className="HeaderMenu">
+        <button>Menu</button>
+        <button>Events</button>
+        <button>Contact</button>
+    </div>
     </>
   );
 }
