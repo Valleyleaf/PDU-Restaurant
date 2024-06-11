@@ -6,6 +6,7 @@ import Navbar from './assets/Navbar/Navbar'
 import Footer from './assets/Footer/Footer'
 
 
+
 function App() {
   const [count, setCount] = useState(0)
   
@@ -17,7 +18,6 @@ function App() {
     <>
         <Header onButtonClick={handleButtonClick}/>
         <Outlet />
-        <Footer />
     </>
   )
 }

@@ -7,20 +7,30 @@
 
 .HeaderRoot{
     position: fixed;
+    width: 100%;
+    height: 5px;
     top: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    z-index: 1;
 }
 
-.HeaderMenu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
+.pbuicon{
+    margin-top: 650px;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.pbuicon:hover{
+    margin-top: 650px;
+    width: 250px;
+    height: 250px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    z-index: 1;
 }
